@@ -34,3 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      - name: Run Meta-Checker
+        run: |
+          chmod +x ./tools/unity-metacheck/bin/linux-amd64/unity-metacheck
+          ./tools/unity-metacheck/bin/linux-amd64/unity-metacheck  -p project/Assets -a project/Assets
