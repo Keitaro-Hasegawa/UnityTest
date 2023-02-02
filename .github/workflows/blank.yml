@@ -38,4 +38,4 @@ jobs:
       - name: Run Meta-Checker
         run: |
           chmod +x ./tools/unity-metacheck/bin/linux-amd64/unity-metacheck
-          ./tools/unity-metacheck/bin/linux-amd64/unity-metacheck  -p project -a project
+          ./tools/unity-metacheck/bin/linux-amd64/unity-metacheck  -p project/Assets -a project/Assets
