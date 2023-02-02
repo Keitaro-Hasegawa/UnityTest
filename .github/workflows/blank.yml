@@ -36,4 +36,4 @@ jobs:
           echo test, and deploy your project.
           
       - name: Run Meta-Checker
-        run: sh ./tools/unity-metacheck/bin/linux-amd64/unity-metacheck
+        run: ./tools/unity-metacheck/bin/linux-amd64/unity-metacheck
